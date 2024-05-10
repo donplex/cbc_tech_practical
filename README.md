@@ -1,2 +1,6 @@
-# cbc_tech_practical
-CBC Tech Solutions Ltd. Senior Software Engineer RPA Practical Test
+# CBC Tech Solutions Ltd. Practical Test
+This Project Total developed using Python Language.
+Please Insrtall bellow mentioned librarries using CMD by entering bellow repective Commands before run.
+
+pip install openpyxl
+pip install pandas
