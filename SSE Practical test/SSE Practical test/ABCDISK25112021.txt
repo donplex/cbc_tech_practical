@@ -1,0 +1,41 @@
+
+
+22/11/25-20:23:33	            ABCDISK-6625-000005 	 1
+_______________________________________________________________________________
+	--------------------------- Message Text ---------------------------	
+        20: Transaction Reference Number
+            XY2112211379-01
+        25: Account Identification
+            21245870000
+       28C: Statement Number/Sequence Number
+            00024/00001
+        61: Statement Line
+            Value  Entr F Code Reference                      Amount        Ma
+            211125 1125 D FMSC ABC-SW-20683/21                  #50.00#     DR
+                               BABCS002245605
+                               CABYLKLXXXX       PAYMENT FEE
+            211125 1125 D FMSC ABC/TT/21/50235                  #25.00#     D
+                               BABCPS0022456360
+                               CABYLKLXXXX       PAYMENT FEE
+            211125 1125 D FMSC ABC/TT/21/50354                  #35.00#     C
+                               BABCPS0022456449
+                               CABYLKLXXXX       PAYMENT FEE
+            211125 1125 D FMSC ABC-SW-20383/21                 #588.11#     D
+                               BABCPS0022456205
+                               CABYLKLXXXX       NORTH MANUFACTUR
+	
+	--------------------------- Message Text ---------------------------	
+        20: Transaction Reference Number
+            XY2112211379-01
+        25: Account Identification
+            21245870001
+       28C: Statement Number/Sequence Number
+            00025/00001
+        61: Statement Line
+            Value  Entr F Code Reference                      Amount        Ma
+            211125 1125 D FMSC XYZ-SW-20483/21                  #100.00#     D
+                               BXYCS0022457205
+                               CXYYLKLXXXX       PAYMENT FEE
+            211125 1125 D FMSC XYZ/TT/21/50235                  #125.00#     C
+                               BXYCPS0022457360
+                               CXTYLKLXXXX       PAYMENT FEE

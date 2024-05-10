@@ -1,0 +1,6 @@
+SQL 5
+Process diagram 5
+Regex set up 5
+First programe data extration 5
+All transaction extraction 10
+

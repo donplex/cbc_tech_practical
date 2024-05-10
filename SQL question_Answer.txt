@@ -1,0 +1,44 @@
+Let's say you have two tables: customers and suppliers, and you want to get a list of all contacts 
+(names and emails) from both tables.
+
+Assuming both tables have similar structures with columns 'name' and 'email'
+
+
+
+
+customers 
+
+|   name     |   contact   |      email    
+|------------|-------------|---------------
+| Bob Johnson|0765484555   | bob.johnson@example.com 
+| Alice Lee  | 076542548   | alice.lee@example.com 
+| ...        | ...         |...
+
+suppliers
+
+|   name    |         email         |
+|-----------|-----------------------|
+| John Doe  | john.doe@example.com |
+| Jane Smith| jane.smith@example.com|
+
+result table should be as below
+
+|   name    |         email         |
+|-----------|-----------------------|
+| John Doe  | john.doe@example.com |
+| Jane Smith| jane.smith@example.com|
+| Bob Johnson| bob.johnson@example.com|
+| Alice Lee | alice.lee@example.com|
+| ...       | ...                   |
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>Answer<<<<<<<<<<<<<<<<<<<<<<<<
+
+SELECT name, email
+FROM customer
+UNION
+SELECT name, email
+FROM suppliers
